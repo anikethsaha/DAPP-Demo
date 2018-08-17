@@ -19,7 +19,7 @@ $(window).on('load',async e =>{
 
         web3.eth.getAccounts().then(async addresss=>{
         console.log('address :', addresss[1]);
-        walletContract.options.from = "0x04E81B269fa963E10E04f6BeC93f3C092a7ad81e";
+        walletContract.options.from = "0xc74c8d941494495a4f65c42bebc556398e1f028d";
          console.log(await walletContract.methods.addUser(addresss[0],"sender",500).send({
             from : web3.eth.defaultAccount,
             gas :6700000
