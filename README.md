@@ -1,4 +1,4 @@
-# Wallet-DAPP
+# DAPP-Demo
 ##### A one way wallet build on top of `solidity` contract , `NodeJS` and frontend by `web3` , `ReactJS` And State Management By `ReduxJS`
 
 ## Technology used
